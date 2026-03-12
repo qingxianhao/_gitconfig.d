@@ -24,7 +24,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      
+      - name: check count
+        run: |
+          [ $(find . -maxdepth 1 -name "*.ini" | wc -l) -eq $(grep -c "^[[:space:]]*path[[:space:]]*=" includes.gitconfig) ] && echo "Equal" || exit $?
+        
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
