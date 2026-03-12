@@ -1,4 +1,5 @@
 [include]
 	path=color.ini
 	path=buffers.ini
+	path=crlf.ini
 	path=alias.ini
