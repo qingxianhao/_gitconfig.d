@@ -29,4 +29,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           ln -sv $PWD ~/.gitconfig.d || exit $?
+          touch ~/.gitconfig || exit $?
+          echo "[include]" >> .gitconfig  || exit $?
+          echo "	path=.gitconfig.d/_gitconfig" >>.gitconfig || exit $?
           git config --global --list || exit $?
