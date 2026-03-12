@@ -3,4 +3,5 @@
 	path=buffers.ini
 	path=crlf.ini
 	path=whitespace.ini
+	path=difftool.ini
 	path=alias.ini
