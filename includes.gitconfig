@@ -2,4 +2,5 @@
 	path=color.ini
 	path=buffers.ini
 	path=crlf.ini
+	path=whitespace.ini
 	path=alias.ini
