@@ -1,2 +1,3 @@
 [include]
+	path=color.ini
 	path=alias.ini
