@@ -1,4 +1,6 @@
 [include]
 	path=~/.gitconfig.d/includes.gitconfig
+
 [core]
 	excludesfile =~/.gitconfig.d/_gitignore
+
