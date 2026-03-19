@@ -5,4 +5,5 @@
 	path=whitespace.ini
 	path=difftool.ini
 	path=fileMode.ini
+	path=editor.ini
 	path=alias.ini
