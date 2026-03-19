@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: git-check-config
+        name: Check Git Config Structure
+        entry: /usr/bin/bash .local/git_config_check.sh
+        language: script
+        files: includes.gitconfig
