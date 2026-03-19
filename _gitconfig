@@ -3,3 +3,4 @@
 
 [core]
 	excludesfile =~/.gitconfig.d/_gitignore
+
