@@ -4,4 +4,5 @@
 	path=crlf.ini
 	path=whitespace.ini
 	path=difftool.ini
+	path=fileMode.ini
 	path=alias.ini
